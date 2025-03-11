@@ -157,45 +157,41 @@ const Terminal = (props: TerminalProps) => {
 
   const commands: { [key in EchoCommand]: JSX.Element } = {
     help: (
-      <div className="terminal-command-output">
-        <pre>
-          <code>
-            <p>
-              <strong>cv</strong> - Download my latest resume
-            </p>
-            <p>
-              <strong>whoami</strong> - Learn more about me and my experience
-            </p>
-            <p>
-              <strong>experience</strong> - Explore my career history and
-              professional work projects.
-            </p>
-            <p>
-              <strong>skills</strong> - See a list of my technical skills and
-              expertise
-            </p>
-            <p>
-              <strong>projects</strong> - Explore my personal projects (or just
-              read about them)
-            </p>
-            <p>
-              <strong>github</strong> - Visit my GitHub profile
-            </p>
-            <p>
-              <strong>homelab</strong> - Check out my self-hosted infrastructure
-              and setups
-            </p>
-            <p>
-              <strong>contact</strong> - Get in touch with me
-            </p>
-            <p>
-              <strong>ls -la</strong> - Print out everything
-            </p>
-            <p>
-              <strong>clear</strong> - Clear terminal window
-            </p>
-          </code>
-        </pre>
+      <div>
+        <p>
+            <ul>
+              <li>
+                <strong>cv</strong>
+              </li>
+              <li>
+                <strong>whoami</strong>
+              </li>
+              <li>
+                <strong>experience</strong>
+              </li>
+              <li>
+                <strong>skills</strong>
+              </li>
+              <li>
+                <strong>projects</strong>
+              </li>
+              <li>
+                <strong>github</strong>
+              </li>
+              <li>
+                <strong>homelab</strong>
+              </li>
+              <li>
+                <strong>contact</strong>
+              </li>
+              <li>
+                <strong>ls -la</strong>
+              </li>
+              <li>
+                <strong>clear</strong>
+              </li>
+            </ul>
+          </p>
       </div>
     ),
     whoami: (
@@ -247,7 +243,7 @@ const Terminal = (props: TerminalProps) => {
           growth and experimentation.
         </p>
         <p>
-          <a href="#" style={{ color: "#bd93f9" }}>
+          <a href="https://github.com/toczke/time-register" style={{ color: "#bd93f9" }}>
             <strong>Time Register</strong>
           </a>
           <br />
@@ -284,7 +280,7 @@ const Terminal = (props: TerminalProps) => {
         </p>
 
         <p>
-          <a href="#" style={{ color: "#bd93f9" }}>
+          <a href="https://github.com/toczke/time-register-documentation" style={{ color: "#bd93f9" }}>
             <strong>Time Register Documentation</strong>
           </a>
           <br />
@@ -292,7 +288,7 @@ const Terminal = (props: TerminalProps) => {
         </p>
 
         <p>
-          <a href="#" style={{ color: "#bd93f9" }}>
+          <a href="https://github.com/toczke/happka" style={{ color: "#bd93f9" }}>
             <strong>HAppka (WIP)</strong>
           </a>
           <br />
@@ -308,7 +304,7 @@ const Terminal = (props: TerminalProps) => {
         </p>
 
         <p>
-          <a href="#" style={{ color: "#bd93f9" }}>
+          <a href="https://github.com/toczke/Aorus-B760M-Elite-X-AX-hackintosh" style={{ color: "#bd93f9" }}>
             <strong>Aorus-B760M-Elite-X-AX-Hackintosh</strong>
           </a>
           <br />
@@ -327,7 +323,7 @@ const Terminal = (props: TerminalProps) => {
             SSD.
           </li>
           <li>
-            <a href="#" style={{ color: "#bd93f9" }}>
+            <a href="https://github.com/toczke/toogoodtogo-bot" style={{ color: "#bd93f9" }}>
               <strong>toogoodtogo-bot</strong>
             </a>{" "}
             - Dockerized it.
