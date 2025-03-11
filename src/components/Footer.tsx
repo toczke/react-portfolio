@@ -12,6 +12,9 @@ const Footer: React.FC = () => {
           <a href="https://www.linkedin.com/in/toczek-tomasz/" target="_blank" rel="noopener noreferrer" className="footer-button">
             LinkedIn
           </a>
+          <a href="/CV.pdf" download="Toczek Tomasz - Curriculum Vitae.pdf" className="footer-button">
+          My resume (for HR)
+        </a>
         </div>
       </footer>
     );
