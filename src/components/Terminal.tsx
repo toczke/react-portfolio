@@ -240,7 +240,31 @@ const Terminal = (props: TerminalProps) => {
         <p>
           All of these projects were made to help me learn by doing. I don't
           treat them as profit-driven ventures; they are purely for personal
-          growth and experimentation.
+          growth and experimentation. Code-wise, yes they can be better but 
+          thats a learning curve. Every new interation is better than older one!
+          You may be wondering, where are QA-related projects? Well, under-way for sure. 
+          Some of my ideas aren't really legal... (messing with OLX scams).
+        </p>
+        <p>
+          <a href="https://github.com/toczke/react-portfolio" style={{ color: "#bd93f9" }}>
+            <strong>React interactive portfolio</strong>
+          </a>
+          <br />
+          <p>
+          It's time to shine! Right? Maybe my resume is AI-proof, however it looks boring. So, I created this interactive portfolio to showcase my skills in a more dynamic and engaging way. It's built using the latest web technologies, so it truly reflects my capabilities. (that's my first time with real frontend btw)
+          </p>         
+          <br />
+          <strong>Used stack:</strong>
+          <br />
+          Frontend:
+          <ul>
+            <li>React</li>
+            <li>Typescript</li>
+          </ul>
+          Platform:
+          <ul>
+            <li>Docker</li>
+          </ul>
         </p>
         <p>
           <a href="https://github.com/toczke/time-register" style={{ color: "#bd93f9" }}>
