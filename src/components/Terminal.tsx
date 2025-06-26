@@ -610,63 +610,70 @@ const Terminal = (props: TerminalProps) => {
       </>
     ),
     
-    experience: (
-      <>
-        <div className="terminal-heading">Work Experience</div>
+experience: (
+  <>
+    <div className="terminal-heading">Work Experience</div>
+    <ul>
+      <li>
+        <strong>Associate Quality Technician</strong> – ManpowerGroup for Intel Habana Labs (04/2025 - 08/2025)
+        <br />• Monitored and reported bugs/defects in tests of LLM models running on Gaudi AI accelerators.
+        <br />• Collaborated with engineering teams to ensure high-quality testing procedures and reproducibility of issues.
+        <br />• Analyzed model behavior and test logs to identify failures related to AI accelerator infrastructure.
+        <br />• Contributed to improving test coverage and debugging workflows for performance and stability testing.
+      </li>
+      <li>
+        <strong>Associate QA Engineer</strong> – Kainos for DVSA (10/2024 - 04/2025)
+        <br />• Implementing Playwright for mobile emulation and E2E testing on physical Android devices.
+        <br />• Supporting the team in developing and executing automated end-to-end tests.
+        <br />• Ensuring high-quality test environments for both emulation and real-device testing.
+        <br />• Collaborating with developers to enhance test automation and coverage.
+        <br />• Contributing to the overall test strategy and improving testing workflows.
+        <br />
+        <strong>Projects:</strong>
         <ul>
           <li>
-            <strong>Associate QA Engineer</strong> – Kainos for DVSA (10/2024 - Present)
-            <br />• Implementing Playwright for mobile emulation and E2E testing on physical Android devices.
-            <br />• Supporting the team in developing and executing automated end-to-end tests.
-            <br />• Ensuring high-quality test environments for both emulation and real-device testing.
-            <br />• Collaborating with developers to enhance test automation and coverage.
-            <br />• Contributing to the overall test strategy and improving testing workflows.
-            <br />
-            <strong>Projects:</strong>
-            <ul>
-              <li>
-                <strong>DVSA: Images in Garages</strong> – Implementing image evidence within MOT garages to combat fraud and errors.  
-                <a href="https://mattersoftesting.blog.gov.uk/how-were-combating-fraud-and-error-within-the-mot/">Read more</a>
-              </li>
-              <li>
-                <strong>DVSA: Trade-API</strong> – Complete rewrite of the Java MOT History service to TypeScript with full API test coverage.
-              </li>
-              <li>
-                <strong>DVSA: FMTS</strong> – Modernizing the MOT Testing System (MTS) with improved automation, stability, and scalability.
-              </li>
-            </ul>
+            <strong>DVSA: Images in Garages</strong> – Implementing image evidence within MOT garages to combat fraud and errors.  
+            <a href="https://mattersoftesting.blog.gov.uk/how-were-combating-fraud-and-error-within-the-mot/">Read more</a>
           </li>
           <li>
-            <strong>Trainee QA Engineer</strong> – Kainos for DVSA (06/2023 - 10/2024)
-            <br />• Implemented test platforms and prepared test environments.
-            <br />• Conducted manual API testing and analyzed results.
-            <br />• Wrote and executed Playwright E2E tests (TypeScript) and performance tests (Scala Gatling).
-            <br />• Responded to user tickets and demoed solutions to stakeholders.
+            <strong>DVSA: Trade-API</strong> – Complete rewrite of the Java MOT History service to TypeScript with full API test coverage.
           </li>
           <li>
-            <strong>LAB Support Technician</strong> – ManpowerGroup for Intel (10/2021 - 06/2023)
-            <br />• Led project support initiatives and provided technical assistance.
-            <br />• Managed IT infrastructure, troubleshooting hardware and software issues.
-            <br />• Coordinated system deployments, updates, and technical improvements.
-            <br />• Prepared and maintained test environments, performed acceptance testing.
-            <br />• Analyzed system diagrams and contributed to process optimization.
-            <br />• Provided technical support and troubleshooting for platform users.
-            <br />
-            <strong>Projects:</strong>
-            <ul>
-              <li>
-                <strong>MTL-P & MTL-S</strong> – Lead support for next-generation Intel platforms.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Area Sales Manager</strong> – Liquider Poland (07/2020 - 09/2021)
-            <br />• Managed a team of 20 and supported regional IT infrastructure.
-            <br />• Led multiple Customer Representatives and Brand Ambassadors.
+            <strong>DVSA: FMTS</strong> – Modernizing the MOT Testing System (MTS) with improved automation, stability, and scalability.
           </li>
         </ul>
-      </>
-    ),    
+      </li>
+      <li>
+        <strong>Trainee QA Engineer</strong> – Kainos for DVSA (06/2023 - 10/2024)
+        <br />• Implemented test platforms and prepared test environments.
+        <br />• Conducted manual API testing and analyzed results.
+        <br />• Wrote and executed Playwright E2E tests (TypeScript) and performance tests (Scala Gatling).
+        <br />• Responded to user tickets and demoed solutions to stakeholders.
+      </li>
+      <li>
+        <strong>LAB Support Technician</strong> – ManpowerGroup for Intel (10/2021 - 06/2023)
+        <br />• Led project support initiatives and provided technical assistance.
+        <br />• Managed IT infrastructure, troubleshooting hardware and software issues.
+        <br />• Coordinated system deployments, updates, and technical improvements.
+        <br />• Prepared and maintained test environments, performed acceptance testing.
+        <br />• Analyzed system diagrams and contributed to process optimization.
+        <br />• Provided technical support and troubleshooting for platform users.
+        <br />
+        <strong>Projects:</strong>
+        <ul>
+          <li>
+            <strong>MTL-P & MTL-S</strong> – Lead support for next-generation Intel platforms.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Area Sales Manager</strong> – Liquider Poland (07/2020 - 09/2021)
+        <br />• Managed a team of 20 and supported regional IT infrastructure.
+        <br />• Led multiple Customer Representatives and Brand Ambassadors.
+      </li>
+    </ul>
+  </>
+),
     runescape: (
       <div>
       </div>
